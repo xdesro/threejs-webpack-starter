@@ -1,1 +1,1 @@
-// You can now import lil bitties of THREE.js as modules
+// You can use import statements here! 

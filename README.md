@@ -12,7 +12,13 @@ Out-of-the-box, things are pretty simple:
    npm ci
    ```
 
-2. 🏗 **Build project.** There's no watcher task just yet, I'll be adding one soon!
+2. 🏗 **Build project.** This will just do all the bundling without starting a dev server.
+
+   ```bash
+   npm run build
+   ```
+
+3. 👀 **Build and run development server.** This command will start a development server which watches for changes and auto-reloads at `localhost:9000`.
 
    ```bash
    npm start
