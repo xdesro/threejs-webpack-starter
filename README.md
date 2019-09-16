@@ -4,9 +4,18 @@ I got tired of the amount of overhead involved in getting a modular THREE.js pro
 
 ## 🎉 Getting Started
 
+### Prerequisites
+
+Make sure you have Node and NPM installed.
+
+- Node v12.10.0 (_You can quickly switch to the correct version with `nvm use` if you have it installed._)
+- NPM >6.10.3
+
+### Development
+
 Out-of-the-box, things are pretty simple:
 
-1. 🛠 **Install dependencies.** I use `ci` instead of `i`/`install` to avoid versioning discrepancies but live your life.
+1. 📦 **Install dependencies.** I use `ci` instead of `i`/`install` to avoid versioning discrepancies but live your life.
 
    ```bash
    npm ci
@@ -18,7 +27,7 @@ Out-of-the-box, things are pretty simple:
    npm run build
    ```
 
-3. 👀 **Build and run development server.** This command will start a development server which watches for changes and auto-reloads at `localhost:9000`.
+3. 🛠 **Build and run development server.** This command will start a development server which watches for changes and auto-reloads at `localhost:9000`.
 
    ```bash
    npm start
